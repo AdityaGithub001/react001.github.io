@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:#243e73;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+form{
+  background-color:#718ec1;
+  padding: 50px;
+  border-radius: 4%;
+  box-shadow: 5px 5px 14px #23080875;
+}
+
+.inputtxt{
+  height: 30px;
+  width: 200px;
+  border-radius: 20px; 
+  box-shadow: inset 2px 2px 14px #23080875;
+  border-style: none;
+  text-align:center;
+  position: relative;
+}
+
+.field{
+  padding: 16px;
+}
+
+.btn{
+  border-radius: 10px;
+  width: 120px;
+  padding: 2px;
+  border-style: none;
+  color:white;
+  background-color: lightseagreen;
+  height: 24px;
+}
+
+h2{
+  opacity: 45%;
+  
+}
+
+.copy{
+  opacity: 30%;
+  font-size: 20px;
+}
+
+.btn:hover{
+  height: 40px;
+   width: 104px;
+   background-color: red;
+}
+
+p{
+  font-size:14px;
+  color: red;
+  
+}
+
+.apibody{
+  height: 40px;
+  background-color: darkgrey;
+}
+
